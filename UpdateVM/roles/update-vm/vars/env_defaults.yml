@@ -1,6 +1,0 @@
----
-# vars file for deploy
-  token_github: 7f42003533bf62adecae7cb78a41f90e5d48c561
-  api_directory: /apps/dev/api/
-  api_name: authentication
-  user : adminagc5
