@@ -1,0 +1,6 @@
+---
+- hosts: php
+  vars_files:
+  - ['roles/update-vm/vars/env_defaults.yml']
+  roles:
+  - role: update-vm

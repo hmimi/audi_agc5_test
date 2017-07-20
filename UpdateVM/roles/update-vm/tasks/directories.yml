@@ -1,0 +1,15 @@
+---
+  - name: Creates Products directory
+    file: path=/products state=directory owner=adminagc5 group=adminagc5 mode=0700
+        
+  - name: Creates APPS directories
+    file: path=/apps/dev/{{item.0}}/{{item.1}} state=directory  owner=adminagc5 group=adminagc5 mode=0700
+    with_nested:
+        - ['agc', 'mya', 'reg', 'apm', 'rmq', 'ela', 'njs']
+        - ['releases', 'hosting', 'var']
+        
+  - name: Creates API directories
+    file: path=/apps/dev/api/{{item.0}}/{{item.1}} state=directory  owner=adminagc5 group=adminagc5 mode=0700
+    with_nested:
+        - ['user', 'vehicle', 'partner', 'address', 'authentication']
+        - ['releases', 'hosting', 'var']
