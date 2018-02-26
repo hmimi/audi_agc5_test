@@ -38,3 +38,5 @@ Test 4 WITH ${ghprbActualCommit}
 Test 5 WITH admins
 Test 5  Without admin
 Test 6  with access github on global config
+Test 7  with hmimi connection
+
