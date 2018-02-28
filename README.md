@@ -45,3 +45,4 @@ Test 10  with comments in PR
 Test 11
 Test 12 without admins
 Test 13 with Github webhook
+Test 14 with whitelist
