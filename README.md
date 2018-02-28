@@ -41,3 +41,4 @@ Test 6  with access github on global config
 Test 7  with hmimi connection
 Test 9  with sha1 instead ${ghprbActualCommit}
 Test 10
+Test 10  with comments in PR
