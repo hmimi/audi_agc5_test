@@ -43,3 +43,4 @@ Test 9  with sha1 instead ${ghprbActualCommit}
 Test 10
 Test 10  with comments in PR
 Test 11
+Test 12 without admins
