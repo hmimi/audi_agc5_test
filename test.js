@@ -1,10 +1,3 @@
-/**
- * Middleware Pre-authentication
- * son role est de recuperer a partir de chaque requête le cookie
- * contenant le token JWT et d'injecter a le requete le header Authorization
- * avec ce token
- */ 
-
 var jwtInjectorMiddleware = new TykJS.TykMiddleware.NewMiddleware({});
 
 jwtInjectorMiddleware.NewProcessRequest(function(request, session) {
