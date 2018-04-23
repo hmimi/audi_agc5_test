@@ -50,3 +50,4 @@ Test 14 with whitelist
 ### GitFlow
 create Feature
 Release1
+Release2
