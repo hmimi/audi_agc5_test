@@ -52,3 +52,4 @@ create Feature
 Release1
 Release2
 Test Develop push authorization
+Test PR release to master
