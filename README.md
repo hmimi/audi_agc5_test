@@ -49,3 +49,4 @@ Test 14 with whitelist
 
 ### GitFlow
 create Feature
+Feature2 to publish
